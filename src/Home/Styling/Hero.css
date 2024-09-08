@@ -1,0 +1,32 @@
+.Hero{
+    position: relative;
+    height: 100vh;
+}
+
+.Hero1{
+    position: absolute;
+    background-color: black;
+    height: 50vh;
+}
+
+.center{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in{
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0,0.3);
+    height: 240px;
+    width: max(50vw, 300px);
+}
+
+.Hero2{
+    position: absolute;
+    height: 50vh;
+}

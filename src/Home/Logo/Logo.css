@@ -1,0 +1,22 @@
+.Logo{
+    display: block;
+    width: max(30vw,70px);
+    padding-left: 20px;
+    user-select: none;
+}
+.Logo :hover{
+    cursor:pointer;
+}
+
+img{
+    width: max(10vw,70px);
+    padding-top: 4px;
+}
+.clubname{
+    width: max(10vw,70px);
+    font-size:max(1.5vw,11px);
+    color: antiquewhite;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    padding: 6px 0px 0px 0px;
+    text-align: center;
+}
