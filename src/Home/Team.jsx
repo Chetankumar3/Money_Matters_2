@@ -34,33 +34,33 @@ function App(){
         <div className="members">
           <Slider {...settings}>
             <Member 
-              source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
-              name="Chetankumar S Majjagi" position="Web Developer" 
+              source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              name="HaHa HiHi" position="Web Developer" 
               Insta="" LinkedIn=""
             />
             <Member 
-              source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
-              name="Chetankumar S Majjagi" position="Web Developer" 
+              source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              name="HaHa HiHi" position="Web Developer" 
               Insta="" LinkedIn=""
             />
             <Member 
-              source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
-              name="Chetankumar S Majjagi" position="Web Developer" 
+              source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              name="HaHa HiHi" position="Web Developer" 
               Insta="" LinkedIn=""
             />
             <Member 
-              source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
-              name="Chetankumar S Majjagi" position="Web Developer" 
+              source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              name="HaHa HiHi" position="Web Developer" 
               Insta="" LinkedIn=""
             />
             <Member 
-              source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
-              name="Chetankumar S Majjagi" position="Web Developer" 
+              source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              name="HaHa HiHi" position="Web Developer" 
               Insta="" LinkedIn=""
             />
             <Member 
-              source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
-              name="Chetankumar S Majjagi" position="Web Developer" 
+              source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              name="HaHa HiHi" position="Web Developer" 
               Insta="" LinkedIn=""
             />
           </Slider>
