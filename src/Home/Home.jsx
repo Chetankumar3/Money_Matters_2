@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from './Hero'
 import About from './About.jsx'
+import Team from './Team.jsx'
 import './Styling/Home.css'
 
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
     <div className='main'>
       <Hero />
       <About />
+      <Team />
     </div>
   );
 }

@@ -1,0 +1,23 @@
+.icon1{
+  height: 28px;
+  width: fit-content;
+  display: inline-block;
+  transition: transform 0.18s ease-in-out 0s;
+}
+
+.icon2{
+  height: 28px;
+  width: fit-content;
+  display: inline-block;
+  transition: transform 0.18s ease-in-out 0s;
+}
+
+.icon1:hover{
+  transform:scale(1.2);
+  cursor: pointer;
+}
+
+.icon2:hover{
+  transform:scale(1.2);
+  cursor: pointer;
+}

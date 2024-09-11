@@ -1,0 +1,45 @@
+.member{
+    padding-bottom: 20px;
+    /* width: 270px; */
+    box-shadow: 0 0 12px 6px rgba(63, 63, 63, 0.15);
+}
+
+.photo{
+    width: 270px;
+    height: 360px;
+    overflow: hidden;
+}
+
+.photo img{
+    padding: 0;
+    width: 270px;
+    transition: transform 0.6s ease-in-out 0s;
+}
+
+.photo img:hover{
+    transform: scale(1.15);
+}
+
+.details{
+    padding-left: 8px;
+}
+
+.name{
+    font-size: max(1.4vw,18px);
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.member h3{
+    color: rgb(107, 107, 107);
+    font-size: max(1.15vw,15px);
+    font-weight: 640;
+}
+
+.logos{
+    display: flex;
+}
+
+.logos img{
+    margin-right: 4px;
+}

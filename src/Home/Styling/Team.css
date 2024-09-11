@@ -1,0 +1,33 @@
+.Team{
+    padding: 0 8%;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.top h1{
+    font-size: max(4.5vw,32px);
+    margin-bottom: 0;
+}
+
+.bar{
+    width: 180px;
+}
+
+.members{
+    margin-top: 25px;
+    /* width: 1200px; */
+}
+
+.slick-slide div{
+    width: 270px;
+}
+
+.slick-slider button{
+    background-color: grey;
+    border-radius: 50%;
+}
