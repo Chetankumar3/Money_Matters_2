@@ -1,7 +1,7 @@
 import React from 'react'
 import './Member.css'
-import Insta from './Photos/insta.jsx'
-import LinkedIn from './Photos/LinkedIn.jsx'
+import Insta from './Icons/insta.jsx'
+import LinkedIn from './Icons/LinkedIn.jsx'
 
 function App({source, name, position, insta, In}){
   return (
