@@ -1,37 +1,75 @@
-.Hero{
+.hero{
     position: relative;
+    /* background-color: black; */
     height: 100vh;
+    margin-left: max(7vw,40px);
+    margin-top: 17vh;
+    font-size: 5em;
 }
-
-.Hero1{
-    position: absolute;
-    background-color: black;
-    height: 55vh;
+.wel {
+    font-family: Montserrat;
+    font-size: 0.4em;
+    font-weight: 200;
+    /* line-height: 25.93px; */
+    text-align: left;
+    color:#FFFFFF;
+    /* margin-left: 108px; */
 }
-
-.center{
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.nameclub{
+    margin-top: 17px;
+    font-family: Audiowide;
+    /* font-size: 58.37px; */
+    font-size: 2.3em;
+    font-weight: 400;
+    /* line-height: 74.41px; */
+    text-align: left;
+    color: #28FB75;
 }
-
-.in{
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 0 0 28px 18px rgba(0, 0, 0, 0.12);
-    min-height: 240px;
-    width: max(50vw, 420px);
-    padding: 12px;
+.iiit{
+    margin-top: 26px;
+    font-family: Montserrat;
+    font-size: 0.3em;
+    font-weight: 200;
+    /* line-height: 29.86px; */
+    text-align: left;
+    color: #FFFFFF;
+    /* margin-left: 108px; */
+    letter-spacing: max(0.1vw,2px);  
 }
-
-.in h1{
-    font-size: max(3.5vw, 36px);
+.quote{
+    font-family: Montserrat;
+        font-size: 0.4em;
+        font-weight: 200;
+        /* line-height: 25.93px; */
+        text-align: left;
+        color: #FFFFFF;
+        /* margin-left: 108px; */
+        margin-top: 14px;
+        margin-bottom: 100px;
 }
-
-.Hero2{
-    position: absolute;
-    height: 45vh;
+.green{
+    font-family: Montserrat;
+        font-size: 0.8em;
+        font-weight: 700;
+        /* line-height: 25.93px; */
+        text-align: left;
+        color: #28FB75;
+}
+.collab{
+    font-family: Montserrat;
+        font-size: max(1.2vw,0px);
+        font-weight: 400;
+        /* line-height: 24.89px; */
+        text-align: left;
+        color:#FFFFFF ;
+        letter-spacing: max(0.095vw,1px);
+}
+.zerodha{
+    width: max(23vw,0px);
+}
+.outerzerodha{
+    margin-top: 25px;
+    width: fit-content;
+    padding: 12px 0px;
+    border-radius: 15px;
 }

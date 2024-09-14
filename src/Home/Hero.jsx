@@ -7,20 +7,12 @@ import './Styling/Hero.css'
 
 function Hero() {
   return (
-    <div className='Hero'>
-        <div className='Hero1'>
-        <Navbar />
-      </div>
-
-      <div className="center">
-        <div className="in">
-          <Welcome text="Welcome to 'Money Matters'"/>
-          <Bar />
-          <Sub text="Where Education Meets Financial Empowerment"/>
-        </div>
-      </div>
-
-      <div className="Hero2"></div>
+    <div className="hero">
+      <div className="wel">Welcome to<h1 className='nameclub'>MONEY MATTERS</h1></div>
+      <div className="iiit">The Financial  Club Of IIIT Naya Raipur</div>
+      <div className="quote">Where <span className="green"> Education</span> Meets <span className="green">Financial Empowerment</span></div>
+      <div className="collab">IN COLLABORATION WITH</div>
+      <div className="outerzerodha"><img src="public\Zerodha_logo_1.png" alt="" className="zerodha" /></div>
     </div>
   )
 }
