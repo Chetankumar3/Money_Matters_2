@@ -12,13 +12,13 @@ function Hero() {
         <Navbar />
       </div>
 
-      <div className="center">
+      {/* <div className="center">
         <div className="in">
           <Welcome text="Welcome to 'Money Matters'"/>
           <Bar />
           <Sub text="Where Education Meets Financial Empowerment"/>
         </div>
-      </div>
+      </div> */}
 
       <div className="Hero2"></div>
     </div>
