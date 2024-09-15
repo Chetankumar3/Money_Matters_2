@@ -1,10 +1,7 @@
 import React from 'react'
 import './Styling/Team.css'
 import Member from './Small components/Member.jsx'
-import Bar from './Small components/bar.jsx'
 import Welcome from './Small components/Welcome.jsx'
-
-
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
