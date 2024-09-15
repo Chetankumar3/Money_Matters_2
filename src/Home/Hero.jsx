@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar.jsx'
 import Welcome from './Small components/Welcome.jsx'
-import Bar from './Small components/bar.jsx'
 import Sub from './Small components/sub.jsx'
 import './Styling/Hero.css'
 

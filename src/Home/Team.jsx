@@ -1,70 +1,75 @@
 import React from 'react'
 import './Styling/Team.css'
 import Member from './Small components/Member.jsx'
-import Bar from './Small components/bar.jsx'
 import Welcome from './Small components/Welcome.jsx'
 
-
-import Slider from 'react-slick'
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
-
 function App(){
-  const settings = {
-    dots: true,
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1500,
-    focusOnSelect: true,
-    centerMode: true,
-    centerPadding: "60px",
-    pauseOnHover: true,
-    // nextArrow: <SampleNextArrow />,
-    // prevArrow: <SamplePrevArrow />
-  };
   return (
     <div className='Team'>
-        <div className="top">
-          <Welcome text="The Team" />
-        </div>
-        <Bar />
+      <Welcome text="TEAM" className="heading"/>
 
-        <div className="members">
-          <Slider {...settings}>
-            <Member 
-              source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              name="HaHa HiHi" position="Web Developer" 
-              Insta="" LinkedIn=""
-            />
-            <Member 
-              source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              name="HaHa HiHi" position="Web Developer" 
-              Insta="" LinkedIn=""
-            />
-            <Member 
-              source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              name="HaHa HiHi" position="Web Developer" 
-              Insta="" LinkedIn=""
-            />
-            <Member 
-              source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              name="HaHa HiHi" position="Web Developer" 
-              Insta="" LinkedIn=""
-            />
-            <Member 
-              source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              name="HaHa HiHi" position="Web Developer" 
-              Insta="" LinkedIn=""
-            />
-            <Member 
-              source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              name="HaHa HiHi" position="Web Developer" 
-              Insta="" LinkedIn=""
-            />
-          </Slider>
-        </div>
+      <div className="members">
+          <Member 
+            source="/kaushal.jpg"
+            // source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            name="Kaushal Ranjan" position="Design & Documentation" 
+            Insta="" LinkedIn=""
+          />
+          <Member 
+            source="/srijan.jpg"
+            // source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            name="Srijan" position="Developer" 
+            Insta="" LinkedIn=""
+          />
+          <Member 
+            source="/garv.jpg"
+            // source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            name="Garv Bajaj" position="" 
+            Insta="" LinkedIn=""
+          />
+          <Member 
+            source="/karthik.jpg"
+            // source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            name="Karthik Pandey" position="" 
+            Insta="" LinkedIn=""
+          />
+          <Member 
+            source="/pranjal.jpg"
+            // source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            name="Pranjal Sharma" position="Head" 
+            Insta="" LinkedIn=""
+          />
+          <Member 
+            source="/sujal.jpg"
+            // source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            name="Sujal Goel" position="Vice Head" 
+            Insta="" LinkedIn=""
+          />
+          <Member 
+            source="vatsal.jpg"
+            // source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            name="Vatsal Shah" position="Developer" 
+            Insta="" LinkedIn=""
+          />
+          <Member 
+            source="chetan.jpg"
+            // source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            name="Chetankumar S Majjagi" position="Developer" 
+            Insta="" LinkedIn=""
+          />
+          <Member 
+            source="/aggarwal.jpg"
+            // source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            name="Pranjal Aggarwal" position="Developer" 
+            Insta="" LinkedIn=""
+          />
+          <Member 
+            source="/shrey.jpg"
+            // source="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            name="Shrey Omar" position="Developer" 
+            Insta="" LinkedIn=""
+          />
+      </div>
     </div>
   )
 }
